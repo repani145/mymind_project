@@ -1,0 +1,1 @@
+# mymind_project
