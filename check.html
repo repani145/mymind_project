@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* .carousel-item p,.carousel-item h3{color: black;} */
+    /* .corousel-item img{width: 100%;} */
+    /* .carousel-indicators{background-color: black !important;} */
+  </style>
+</head>
+<body>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div style="width: 80%;margin-left: 10%; display: flex;flex-flow: row;background-color: rgb(250, 250, 250);border: 2px solid;border-radius: 10px;padding: 20px;box-shadow: 0px 0px 10px orangered;">
+                <div style="width: 50%;">
+                    <h1>Find Textwithin images</h1>
+                    <p>Search any keyword you remember from a meme, handwritten notes or photo containing text, and mymind can read the image and find it for you.</p>
+                </div>
+                <img style="width: 50%;" src="./four1.webp" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div style="width: 80%;margin-left: 10%; display: flex;flex-flow: row;background-color: rgb(250, 250, 250);border: 2px solid;border-radius: 10px;padding: 20px;box-shadow: 0px 0px 10px orangered;">
+                <div style="width: 50%;">
+                    <h3>Write in Piece</h3>
+                    <p>Focus Mode gives you a clean, fresh space to write without distractions. Use it to journal, write longer drafts or expand on your notes.</p>
+                </div>
+                <img style="width: 50%;" src="./four2.webp" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div style="width: 80%;margin-left: 10%; display: flex;flex-flow: row;background-color: rgb(250, 250, 250);border: 2px solid;border-radius: 10px;padding: 20px;box-shadow: 0px 0px 10px orangered;">
+                <div style="width: 50%;">
+                    <h3>Save Hilights with a click</h3>
+                    <p>Highlight a passage or quote you want to remember from an article or newsletter. mymind will file it away for you, so you can keep reading</p>
+                </div>
+                <img style="width: 50%;" src="./four3.webp" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div style="width: 80%;margin-left: 10%; display: flex;flex-flow: row;background-color: rgb(250, 250, 250);border: 2px solid;border-radius: 10px;padding: 20px;box-shadow: 0px 0px 10px orangered;">
+                <div style="width: 50%;">
+                    <h3>Share a Piece of your mind</h3>
+                    <p>Everything you save is private. But if you’d like to share a piece of your mind with a friend, you can send a link that expires within 24 hours.</p>
+                </div>
+                <img style="width: 50%;" src="./four4.webp" alt="">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./four1.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Find Textwithin images</h3>
+              <p>Search any keyword you remember from a meme, handwritten notes or photo containing text, and mymind can read the image and find it for you.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./four2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Write in Piece</h3>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./four3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Save Hilights with a click</h3>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./four4.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Share a Piece of your mind</h3>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+</body>
+</html>
