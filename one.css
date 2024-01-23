@@ -18,7 +18,7 @@
 .md31>div{margin-left: 30%;}
 .md31 span{font-size: 150%;}
 .md4{background-image: url("./bg1.jpg");width: 100%; height: auto;font-size: 150%;}
-.md41 span{color: orangered;}
+.md41 span{color: orangered;font-weight: bolder;}
 .md,.md1,.md2,.md4{display: flex;flex-flow: column wrap;row-gap: 50px;justify-content: center;align-items: center;margin-top: 150px;}
 .big_name1{margin-top: -70%;}
 .big_name2{margin-top: -5%;}
@@ -164,7 +164,7 @@
     .md21>video:hover{opacity: 0.3;background-color: white;}
     .md23{margin-top: -30%;margin-left: -20%;}
     .md4{background-image: url("./bg1.jpg");width: 100%; height: auto; width: 100%;font-size: 350%;}
-    .md41 span{color: orangered;}
+    .md41 span{color: orangered;font-weight: bolder;}
     .md,.md1,.md2,.md3,.md4{display: flex;flex-flow: column wrap;row-gap: 100px;justify-content: center;align-items: center;margin-top: 300px;}
     .one{margin-top: -30%;}
     .big_name1{margin-top: -140%;}
